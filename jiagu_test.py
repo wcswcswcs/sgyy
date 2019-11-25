@@ -7,7 +7,7 @@
 """
 
 import jiagu
-from SgyySpider import load_pkl
+from CrawlNovel import load_pkl
 
 if __name__ == '__main__':
     data = load_pkl()
