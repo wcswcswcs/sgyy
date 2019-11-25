@@ -11,12 +11,12 @@ import pickle
 from bs4 import BeautifulSoup
 
 def load_pkl():
-    with open('sgyy.pkl','rb') as f:
+    with open('data/sgyy.pkl','rb') as f:
         data = pickle.load(f)
     return data
 
 def save_pkl(l):
-    with open('sgyy.pkl','wb') as f:
+    with open('data/sgyy.pkl','wb') as f:
         pickle.dump(l, f)
     print('save done!')
 
