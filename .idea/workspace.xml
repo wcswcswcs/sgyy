@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8782f3d5-8734-4fee-a8d2-54fe8e1ab9a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sgyy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sgyy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlPerson.py" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlPerson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574697984296</updated>
       <workItem from="1574697985883" duration="4195000" />
-      <workItem from="1574738067601" duration="16611000" />
+      <workItem from="1574738067601" duration="16758000" />
     </task>
     <servers />
   </component>
