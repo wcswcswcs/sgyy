@@ -31,7 +31,8 @@ def crawl_page(page):
         'Accept': 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
         'Referer': 'http://www.e3ol.com/biography-index.html',
         'User-Agent': random.choice(User_Agent),
-        'X-Requested-With': 'XMLHttpRequest'
+        'X-Requested-With': 'XMLHttpRequest',
+        'Connection': 'close',
     }
     t = random.choice(Token)
     time.sleep(random.randint(0,3))
@@ -40,7 +41,12 @@ def crawl_page(page):
     response.encoding = 'ascii'
     for i in parse_response(response):
         if not isinstance(i, dict) or len(i) == 0: continue
-        crawl_person(i)
+        retry_times = 0
+        while not crawl_person(i):
+            if retry_times > 3:
+                break
+            retry_times += 1
+            print('重试次数{0}'.format(retry_times))
         print('添加{0}'.format(i['name']))
         res.append(i)
     return res
@@ -130,11 +136,15 @@ def crawl_person(person):
         'Referer': 'http://www.e3ol.com/biography-index.html',
         'Connection': 'close',
     }
+    try :
+        response = requests.get(url=person['url'],headers=headers)
+    except Exception as e:
+        print(e)
+        return False
 
-    response = requests.get(url=person['url'],headers=headers)
     response.encoding = 'utf-8'
     parse_detail(person,response)
-
+    return True
 def main():
     renwu_list = []
     for i in range(1,226):
