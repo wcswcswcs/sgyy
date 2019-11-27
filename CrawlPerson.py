@@ -82,12 +82,17 @@ def parse_detail(d, response):
     jiguan = name_list[1].get_text().split('：')
     d['jiguan'] = jiguan[1]
     cata = name_list[2].get_text().split('\xa0')
-    m_cata = cata[0]
-    c_cata = []
-    c_cata.append(cata[1].split('：')[1])
-    c_cata.extend([x for x in cata[2:] if len(x)>0])
-    d['cata'] = m_cata
-    d['cata_list'] = c_cata
+    try:
+        m_cata = cata[0]
+        c_cata = []
+        c_cata.append(cata[1].split('：')[1])
+        c_cata.extend([x for x in cata[2:] if len(x)>0])
+        d['cata'] = m_cata
+        d['cata_list'] = c_cata
+    except Exception as e:
+        print(e)
+        d['cata'] = cata[0]
+        d['cata_list'] = cata
     d['guanzhi'] = [x for x in name_list[4].get_text().split('：')[1].split('\xa0') if len(x)>0]
 
     all_text = bs.find_all('div',attrs={'class':'text'})
@@ -120,7 +125,13 @@ def crawl_person(person):
     # for i in data:
     print('爬取人物{0}'.format(person['name']))
     time.sleep(1 + random.uniform(0, 2))
-    response = requests.get(url=person['url'])
+    headers = {
+        'User-Agent': random.choice(User_Agent),
+        'Referer': 'http://www.e3ol.com/biography-index.html',
+        'Connection': 'close',
+    }
+
+    response = requests.get(url=person['url'],headers=headers)
     response.encoding = 'utf-8'
     parse_detail(person,response)
 

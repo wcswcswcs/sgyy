@@ -4,8 +4,6 @@
     <list default="true" id="8782f3d5-8734-4fee-a8d2-54fe8e1ab9a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlPerson.py" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlPerson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/renwu.pkl" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +126,7 @@
       <updated>1574697984296</updated>
       <workItem from="1574697985883" duration="4195000" />
       <workItem from="1574738067601" duration="37776000" />
-      <workItem from="1574846677631" duration="1064000" />
+      <workItem from="1574846677631" duration="4628000" />
     </task>
     <servers />
   </component>
@@ -160,7 +158,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sgyy$CrawlPerson.coverage" NAME="CrawlPerson Coverage Results" MODIFIED="1574847777128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sgyy$CrawlPerson.coverage" NAME="CrawlPerson Coverage Results" MODIFIED="1574850811166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sgyy$CrawlPerson1.coverage" NAME="CrawlPerson1 Coverage Results" MODIFIED="1574741299971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
