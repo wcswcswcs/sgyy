@@ -39,7 +39,7 @@ def crawl_page(page):
 
     response = requests.get(url=url.format(page, t, t + 1), headers=headers)
     response.encoding = 'ascii'
-    for i in parse_response(response):
+    for i in parse_response(response.content):
         if not isinstance(i, dict) or len(i) == 0: continue
         retry_times = 0
         while not crawl_person(i):
@@ -52,7 +52,7 @@ def crawl_page(page):
     return res
 
 def parse_response(res):
-    res = res.content.decode("unicode-escape")
+    res = res.decode("unicode-escape")
     p1 = re.compile(r'[\[](.*)[\]]', re.S)  # 最小匹配
     soul = re.findall(p1, res)[0]
     p2 = re.compile(r'[{](.*?)[}]', re.S) # 最大匹配
