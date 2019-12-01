@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8782f3d5-8734-4fee-a8d2-54fe8e1ab9a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlPerson.py" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlPerson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SgyySpider/SgyySpider/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/SgyySpider/SgyySpider/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SgyySpider/SgyySpider/spiders/biography.py" beforeDir="false" afterPath="$PROJECT_DIR$/SgyySpider/SgyySpider/spiders/biography.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +178,8 @@
       <updated>1574697984296</updated>
       <workItem from="1574697985883" duration="4195000" />
       <workItem from="1574738067601" duration="37776000" />
-      <workItem from="1574846677631" duration="25664000" />
+      <workItem from="1574846677631" duration="32568000" />
+      <workItem from="1575006571666" duration="7165000" />
     </task>
     <servers />
   </component>
@@ -199,13 +201,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SgyySpider/SgyySpider/spiders/biography.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -216,7 +211,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sgyy$main.coverage" NAME="main Coverage Results" MODIFIED="1574928669693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SgyySpider/SgyySpider" />
+    <SUITE FILE_PATH="coverage/sgyy$main.coverage" NAME="main Coverage Results" MODIFIED="1575015558036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SgyySpider/SgyySpider" />
     <SUITE FILE_PATH="coverage/sgyy$biography.coverage" NAME="biography Coverage Results" MODIFIED="1574907352816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SgyySpider/SgyySpider/spiders" />
     <SUITE FILE_PATH="coverage/sgyy$CrawlPerson.coverage" NAME="CrawlPerson Coverage Results" MODIFIED="1574852513684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sgyy$CrawlPerson1.coverage" NAME="CrawlPerson1 Coverage Results" MODIFIED="1574741299971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

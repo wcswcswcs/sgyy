@@ -1,3 +1,3 @@
-2019-11-28 16:11:10 [py.warnings] WARNING: /home/liuhaiyang/PycharmProjects/sgyy/SgyySpider/SgyySpider/pipelines.py:10: ScrapyDeprecationWarning: Importing from scrapy.xlib.pydispatch is deprecated and will no longer be supported in future Scrapy versions. If you just want to connect signals use the from_crawler class method, otherwise import pydispatch directly if needed. See: https://github.com/scrapy/scrapy/issues/1762
+2019-11-29 16:19:18 [py.warnings] WARNING: /home/liuhaiyang/PycharmProjects/sgyy/SgyySpider/SgyySpider/pipelines.py:10: ScrapyDeprecationWarning: Importing from scrapy.xlib.pydispatch is deprecated and will no longer be supported in future Scrapy versions. If you just want to connect signals use the from_crawler class method, otherwise import pydispatch directly if needed. See: https://github.com/scrapy/scrapy/issues/1762
   from scrapy.xlib.pydispatch import dispatcher
 

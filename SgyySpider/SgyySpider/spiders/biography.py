@@ -48,7 +48,7 @@ class BiographySpider(scrapy.Spider):
                     elif s[0] == 'id':
                         d[s[0]] = s[1]  # id 不需要去除""
                     elif s[0] == 'name_url':
-                        d['url'] = 'http://www.e3ol.com/biography/html/{0}'.format(s[1][1:-1])
+                        d['url'] = 'http://www.e3ol.com/biography/html/{0}/'.format(s[1][1:-1])
                     elif s[0] == 'sex' or s[0] == 'name' or s[0] == 'zhengshi':
                         d[s[0]] = s[1][1:-1]  # 去掉首尾“”号
 
