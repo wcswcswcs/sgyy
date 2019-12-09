@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8782f3d5-8734-4fee-a8d2-54fe8e1ab9a7" name="Default Changelist" comment="" />
+    <list default="true" id="8782f3d5-8734-4fee-a8d2-54fe8e1ab9a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GeneralRelation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToNeo4j.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SgyySpider/SgyySpider/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/SgyySpider/SgyySpider/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/renwu_relate.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgyy_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sgyy_analysis.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +71,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="CrawlPerson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ToNeo4j">
+    <configuration name="GeneralRelation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sgyy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +85,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrawlPerson.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GeneralRelation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CrawlPerson1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ToNeo4j" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sgyy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,7 +107,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrawlPerson1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ToNeo4j.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.ToNeo4j" />
+        <item itemvalue="Python.GeneralRelation" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.biography" />
-        <item itemvalue="Python.CrawlPerson" />
-        <item itemvalue="Python.CrawlPerson1" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +205,7 @@
       <workItem from="1574697985883" duration="4195000" />
       <workItem from="1574738067601" duration="37776000" />
       <workItem from="1574846677631" duration="32568000" />
-      <workItem from="1575006571666" duration="18022000" />
+      <workItem from="1575006571666" duration="29646000" />
     </task>
     <servers />
   </component>
@@ -220,6 +227,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.virtualenvs/sgyy/lib/python3.5/site-packages/py2neo/internal/operations.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -230,10 +244,12 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sgyy$main.coverage" NAME="main Coverage Results" MODIFIED="1575015558036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SgyySpider/SgyySpider" />
+    <SUITE FILE_PATH="coverage/sgyy$main.coverage" NAME="main Coverage Results" MODIFIED="1575888636583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SgyySpider/SgyySpider" />
     <SUITE FILE_PATH="coverage/sgyy$biography.coverage" NAME="biography Coverage Results" MODIFIED="1574907352816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SgyySpider/SgyySpider/spiders" />
     <SUITE FILE_PATH="coverage/sgyy$CrawlPerson.coverage" NAME="CrawlPerson Coverage Results" MODIFIED="1574852513684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sgyy$GeneralRelation.coverage" NAME="GeneralRelation Coverage Results" MODIFIED="1575891577114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sgyy$CrawlPerson1.coverage" NAME="CrawlPerson1 Coverage Results" MODIFIED="1574741299971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sgyy$test.coverage" NAME="test Coverage Results" MODIFIED="1575284266611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sgyy$ToNeo4j.coverage" NAME="ToNeo4j Coverage Results" MODIFIED="1575891758951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
